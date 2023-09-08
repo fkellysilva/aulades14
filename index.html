@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercício</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <div class="container">
+        <a class="navbar-brand" href="#">Exercício</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content py-5">
+    <section class="container">
+      <h2> Titulo 1</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus sagittis pretium. Donec in risus
+        tellus. Donec cursus convallis vulputate. Curabitur ullamcorper, sem nec facilisis feugiat, erat diam mollis
+        diam, at pellentesque libero enim volutpat leo. Orci varius natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Aliquam quis nisi eget ante posuere tempus. Sed hendrerit arcu id tincidunt laoreet.
+
+      </p>
+    </section>
+    <section class="container mt-4">
+      <h2>Titulo 2</h2>
+      <p>Phasellus ultrices vitae odio imperdiet vehicula. Morbi vestibulum hendrerit tortor, ut posuere orci accumsan
+        sit amet. Pellentesque nec lobortis purus. Curabitur vitae sapien ex. Curabitur ullamcorper auctor mi, et
+        bibendum mi laoreet non. Integer mollis accumsan feugiat. Quisque interdum faucibus lorem, nec tristique velit
+        faucibus sit amet. Mauris ultricies ut diam vel placerat. Integer pellentesque vulputate tempor. Nulla facilisi.
+
+      </p>
+    </section>
+    <section class="container mt-4">
+      <h2>Titulo 3</h2>
+      <p>Nulla sed auctor enim, vitae efficitur diam. Etiam in interdum diam, non ultricies ante. Nulla convallis elit
+        vitae lorem fringilla, sed facilisis nulla tristique. Suspendisse id elit scelerisque, hendrerit massa eu,
+        rhoncus diam. Nullam leo ipsum, viverra in purus sed, egestas facilisis enim. Praesent eget mauris lectus.
+        Praesent egestas vitae tortor mollis pharetra. Proin quis lacinia nisi. Maecenas id sem leo. Etiam risus enim,
+        hendrerit at erat eget, bibendum pretium tortor. Nam eleifend tempor dignissim. Duis non venenatis leo, at
+        iaculis dolor. Pellentesque consequat, lectus id scelerisque gravida, libero arcu convallis quam, quis rutrum
+        lorem ex ac velit. Donec ut nulla id dolor volutpat euismod.
+
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-3 text-center">
+    Exercício &copy; <span id="year"></span> - Todos os direitos reservados.
+  </footer>
+
+  <script>
+    const yearElement = document.querySelector("#year")
+    yearElement.innerHTML = new Date().getFullYear()
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
